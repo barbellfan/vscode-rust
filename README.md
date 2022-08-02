@@ -11,6 +11,7 @@ When I create a new Rust project in Visual Studio Code, I create a folder in the
 Supported build tasks:
 - build
 - run
+- run with backtrace (RUST_BACKTRACE set to 1)
 - run --release
 - check
 - fmt (format)

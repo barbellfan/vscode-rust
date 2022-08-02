@@ -26,6 +26,23 @@
       }
     },
     {
+      "label": "cargo run backtrace",
+      "type": "shell",
+      "command": "cargo",
+      "args": [
+        "run"
+      ],
+      "options": {
+        "env": {
+          "RUST_BACKTRACE": "1"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "cargo run release",
       "type": "shell",
       "command": "cargo",
