@@ -16,6 +16,7 @@ Supported build tasks:
 - check
 - fmt (format)
 - clean
+- doc
 
 Supported test tasks:
 - test
@@ -24,6 +25,6 @@ Supported test tasks:
 Unsupported tasks, since I don't see how to do this in the context of a project:
 - new
 
-Note to self: add test task for running ignored test, like this:
+Note to self: add test task for running ignored tests, like this:
 
 cargo test -- --ignored
