@@ -10,6 +10,7 @@ When I create a new Rust project in Visual Studio Code, I create a folder in the
 
 Supported build tasks:
 - build
+- build all (Same as --all-targets. Added so tests get compiled as well.)
 - run
 - run with backtrace (RUST_BACKTRACE set to 1)
 - run --release
